@@ -82,6 +82,11 @@ $(document).ready(function() {
 		$('.expand8').toggle();
 		$('.contract8').toggle();
     });
+	$('.button9').click(function() {
+		$('.section9').toggle();
+		$('.expand9').toggle();
+		$('.contract9').toggle();
+    });
 });
 </script>
 <style type="text/css">
@@ -270,6 +275,29 @@ $(document).ready(function() {
 .button8:focus{
 	outline:none
 }
+.button9 {
+
+	border-radius:15px;
+	border:2px solid black;
+	display:inline-block;
+
+	background-color:white;
+	color:white;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:1px 4px;
+	text-decoration:none;
+	cursor:pointer;
+	
+	
+}
+.button9:hover {
+	color:black;
+}
+.button9:focus{
+	outline:none
+}
 .section1{
 	display:none
 }
@@ -400,6 +428,32 @@ $(document).ready(function() {
 	
 	
 }
+.section9{
+	display:none
+}
+.contract9{
+	display:none;
+	font-weight:bold;
+
+	}
+	.button {
+
+	border-radius:15px;
+	border:2px solid black;
+	display:inline-block;
+
+	background-color:white;
+	color:white;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:1px 4px;
+	text-decoration:none;
+	cursor:pointer;
+	
+	
+}
+
 .contract{
 	display:none;
 	font-weight:bold;
@@ -429,6 +483,8 @@ max-width: 100%;
    }
  }
 
+
+ 
 </style>
 
  </head>
@@ -440,8 +496,14 @@ font-family:verdana;
 cursor:default;
 }
 li {
+font-family: Verdana;
 cursor:default;
+font-size:0.75em
 }
+TD{
+font-family: Verdana
+}
+
 
 </style>
 
@@ -459,7 +521,11 @@ cursor:default;
 	<td width="100%">Welcome to my online resume!
 	<br></br>
 	
-	I'm a versatile, early career mechanical engineer.  I love challenges and work to seek them out wherever I can.  As an engineer I enjoy applying my problem solving skills to pertinent problems of today.  This has led me from automotive emissions equipment to renewable power generation to building and appliance energy efficiency, picking up skills or tools as I go.
+	I'm a versatile, mechanical engineer/data analyst.  I love challenges and work to seek them out wherever I can.  As an engineer I enjoy applying my problem solving skills to pertinent problems of today.  This has led me from automotive emissions equipment to renewable power generation to building and appliance energy efficiency, and finally to data analysis, picking up skills or tools as I go.
+	
+	<br>
+	<br>
+	In my spare time when I'm not brushing up on coding exercises or reading papers, I like cooking, traveling, basketball, reading, and breaking.
 
 	</td>
 	<td width="30%" align="right"><div style="width: 100%;"><img src="http://i.imgur.com/kvOn9Vs.png"/>
@@ -470,10 +536,19 @@ cursor:default;
 <p><b><font size="5"> Renewable Energy and Energy Efficiency</font></b></p>
 <hr/>
 <p class="title"><button class="button1" ><div class="expand1">&#43;</div><div class="contract1">&ndash;</div></button><b>  Lawrence Berkeley National Laboratory <span style="float:right">2014-Present</b></span></p>
-<p class="title"><i><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Senior Research Associate</b></font></i></p>
+
 <div class="section1">
+
+<p class="title"><i><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Scientific Engineering  Associate</b></font></i></p>
 <ul>
-<p><li>Produced complex life-cycle cost models for hearth products and sourced model inputs.  These are available on regulations.gov and were the basis for cost benefit analysis of the <a href="http://www.regulations.gov/#!docketDetail;D=EERE-2014-BT-STD-0036">federal rulemaking.</a></li></p>
+<p><li>Developed energy efficiency requirements for lighting in the federal sector.  Assembled database of entire US lighting market, cleaned and analyzed it to generate requirements for the Federal Energy Management Program (FEMP)</li></p>
+<p><li>Formulated updates to FEMP appliance requirements for several appliance resulting in energy cost savings estimated in the $100s of millions USD.  These are listed <a href="https://energy.gov/eere/femp/search-energy-efficient-products">here.</a></li></p>
+<p><li>Created cost calculator for lighting energy efficiency, available on the FEMP website. </li></p>
+
+</ul>
+<p class="title"><i><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Senior Research Associate</b></font></i></p>
+<ul>
+<p><li>Produced complex life-cycle cost models for hearth products and sourced model inputs.  These are available on regulations.gov and were the basis for cost benefit analysis of the <a href="http://www.regulations.gov/#!docketDetail;D=EERE-2014-BT-STD-0036">federal rulemaking.  Results indicated approximately 0.6 quads energy savings and associated national impacts of almost $1 billion USD.</a></li></p>
 <p><li>Created US Federal test procedures and standards for space heating appliances standardizing energy efficiency measurements.  These are also available at <a href="http://www.regulations.gov/#!docketDetail;D=EERE-2013-BT-TP-0004">regulations.gov.</a>.  A summary is <a href="https://www1.eere.energy.gov/buildings/appliance_standards/product.aspx/productid/68">here.</a></li></p>
 <p><li>Implemented surveys to collect data on consumer appliance use,  including survey creation and html coding of surveys which were implemented on Amazon Mechanical Turk.  I also was responsible for the demographic weighting, statistical analysis and presentation of survey data</li></p>
 
@@ -557,6 +632,18 @@ cursor:default;
 <p><li>Classes focused on physics and math with an engineering emphasis.  The liberal arts approach also encouraged other more diverse interests, including history.</li></p>
 <p><li>Was selected as an REU participant as a physics major in a surface science laboratory at the University of Illinois at Chicago.  This resulted in secondary authorship in <a href="http://pubs.acs.org/doi/abs/10.1021/jp8011975?journalCode=jpccck">this</a> journal publication. </li></p>
 </ul>
+</div>
+<p><b><font size="5">Miscellaneous</font></b></p>
+<hr/>
+<p class="title"><button class="button9" ><div class="expand9">&#43;</div><div class="contract9">&ndash;</div></button><b>  University of California Davis<span style="float:right">2011-2013</b></span></p>
+<p class="title"><i><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Project Drawdown Fellow</b></font></i></p>
+<div class="section9">
+<ul>
+<p><li>Performed econometric analysis to assess impact of improvements in appliance energy efficiency.  Part of heat pump chapter in <a href="http://www.drawdown.org/"> New York Times bestseller Project Drawdown.</a></li></p>
+</ul>
+</div>
+
+
 </div>
 </body>
 </html>
